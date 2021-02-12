@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\convenience store git\\helloworld\\helloworld.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\convenience store git\\convenience store git.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\convenience store git\\helloworld\\helloworld.csproj": {
+    "C:\\Users\\Admin\\Desktop\\convenience store git\\convenience store git.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\convenience store git\\helloworld\\helloworld.csproj",
-        "projectName": "helloworld",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\convenience store git\\helloworld\\helloworld.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\convenience store git\\convenience store git.csproj",
+        "projectName": "convenience store git",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\convenience store git\\convenience store git.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\convenience store git\\helloworld\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\convenience store git\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

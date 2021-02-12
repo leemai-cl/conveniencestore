@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.AssemblyInfo.cs
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.exe
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.deps.json
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.runtimeconfig.json
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.dll
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\ref\convenience store git.dll
+C:\Users\Admin\Desktop\convenience store git\bin\Debug\net5.0\convenience store git.pdb
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.dll
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\ref\convenience store git.dll
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.pdb
+C:\Users\Admin\Desktop\convenience store git\obj\Debug\net5.0\convenience store git.genruntimeconfig.cache
