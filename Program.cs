@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace convenience_store
@@ -8,6 +9,33 @@ namespace convenience_store
     {
         static void Main(string[] args)
         {
+          /*
+            int day = 4;
+            switch (day) 
+      {
+        case 1:
+          Console.WriteLine("Monday");
+          break;
+        case 2:
+          Console.WriteLine("Tuesday");
+          break;
+        case 3:
+          Console.WriteLine("Wednesday");
+          break;
+        case 4:
+          Console.WriteLine("Thursday");
+          break;
+        case 5:
+          Console.WriteLine("Friday");
+          break;
+        case 6:
+          Console.WriteLine("Saturday");
+          break;
+        case 7:
+          Console.WriteLine("Sunday");
+          break;
+      }    */
+            
             //instantiate random object
             Random random;
             random = new Random();
@@ -19,17 +47,31 @@ namespace convenience_store
             List<string> menu = new List<string> { "food - $3", "soda - $1", "beer - $2", "cigs - $5\n " };
 
 
-            Console.WriteLine("welcome to corner store 8!");
+            
+            Console.WriteLine("walk into store \n reset game");     
+          string day = Console.ReadLine();
+            switch (day) 
+      {
+        case "reset game":
+          Console.WriteLine("Monday"); //new game
+          break;
+        case "walk into store":
+          Console.WriteLine("Tuesday"); //walk in
+          Console.WriteLine("welcome to corner store 8!");
             Console.WriteLine("\ntoday you have " + wallet + " dollars \nplease type item you would like to buy from the list \n ");
-                   
-
-           
-            //display menu
-            foreach (string item in menu)
+           foreach (string item in menu)
 
             {
                 Console.WriteLine(item);
             }
+          //break;
+      }
+            //display menu
+            /*foreach (string item in menu)
+
+            {
+                Console.WriteLine(item);
+            }*/
 
 
             while (wallet > 0)
@@ -64,12 +106,13 @@ namespace convenience_store
                     break;
                 }
             }
-
-            
+                         
            
 
             Console.WriteLine("goodbye!"); 
             Console.ReadKey();
         }
+        
     }
+    
 }
