@@ -1,17 +1,12 @@
-﻿using System.Collections.Concurrent;
-using System.Security.Cryptography;
-using System.Runtime.Serialization;
-using System.Reflection.Emit;
-using System.Data;
-using Internal;
+﻿
 using System;
 using System.Collections.Generic;
 
-namespace lottoticket
+namespace convenience_store
 {
-class program
+class Lotto
 {
-	static void Main(string[] args)
+	public void runLotto(string[] args)
 	{
 		//instantiate random object 
 		Random rand;

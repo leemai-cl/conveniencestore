@@ -9,32 +9,7 @@ namespace convenience_store
     {
         static void Main(string[] args)
         {
-          /*
-            int day = 4;
-            switch (day) 
-      {
-        case 1:
-          Console.WriteLine("Monday");
-          break;
-        case 2:
-          Console.WriteLine("Tuesday");
-          break;
-        case 3:
-          Console.WriteLine("Wednesday");
-          break;
-        case 4:
-          Console.WriteLine("Thursday");
-          break;
-        case 5:
-          Console.WriteLine("Friday");
-          break;
-        case 6:
-          Console.WriteLine("Saturday");
-          break;
-        case 7:
-          Console.WriteLine("Sunday");
-          break;
-      }    */
+          
             
             //instantiate random object
             Random random;
@@ -46,17 +21,18 @@ namespace convenience_store
             //items to buy
             List<string> menu = new List<string> { "food - $3", "soda - $1", "beer - $2", "cigs - $5\n " };
 
-
+            var lotto = new Lotto();
+            lotto.runLotto(null);
             
             Console.WriteLine("walk into store \n reset game");     
           string day = Console.ReadLine();
             switch (day) 
       {
         case "reset game":
-          Console.WriteLine("Monday"); //new game
+          Console.WriteLine("new game"); //new game
           break;
         case "walk into store":
-          Console.WriteLine("Tuesday"); //walk in
+          Console.WriteLine("walk in"); //walk in
           Console.WriteLine("welcome to corner store 8!");
             Console.WriteLine("\ntoday you have " + wallet + " dollars \nplease type item you would like to buy from the list \n ");
            foreach (string item in menu)
@@ -64,14 +40,14 @@ namespace convenience_store
             {
                 Console.WriteLine(item);
             }
-          //break;
+          break;
       }
             //display menu
-            /*foreach (string item in menu)
+            foreach (string item in menu)
 
             {
                 Console.WriteLine(item);
-            }*/
+            }
 
 
             while (wallet > 0)
