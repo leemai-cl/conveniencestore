@@ -12,18 +12,14 @@ class Lotto
 		Random rand;
 		rand = new Random();
 
-		int lottonum1 = rand.Next(1, 4);
-		int lottonum2 = rand.Next(1, 4);
-		int lottonum3 = rand.Next(1, 4);
-		int lottonum4 = rand.Next(1, 4);
 
-		List<int> lottoticket = new List<int> { lottonum1, lottonum2, lottonum3, lottonum4 };
+		List<int> lottoticket = new List<int> {};
 
 		foreach (int i in lottoticket)
 		{
 		  Console.WriteLine(i);
 		}
-		Console.ReadLine();  
+		 
 		for (int i=0; i<5; i++)
 			{
 				Console.ReadLine();
@@ -31,6 +27,7 @@ class Lotto
 				if (scratchnum == 7)
 				{
 					Console.WriteLine("winner");
+					
 				}
 				else
 				{
@@ -41,3 +38,4 @@ class Lotto
 	}
 }
 }
+
